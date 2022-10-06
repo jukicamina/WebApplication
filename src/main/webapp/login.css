@@ -1,0 +1,110 @@
+html, body {
+  background: #f5deb3;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+   font-family: "Lucida Console", "Courier New", monospace;
+	  color: white;
+  background: #e9967a;
+  padding: 15px;
+}
+
+.pagetitle{
+	
+	text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+  
+	
+}
+
+
+header nav {
+   
+   text-align: center;
+  float: center;
+  margin-right: 1%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+a:link, a:visited, a:active {
+	  font-family: "Lucida Console", "Courier New", monospace;
+	
+    color: white;
+    text-decoration: none;
+}
+  
+
+a:hover {
+	  font-family: "Lucida Console", "Courier New", monospace;
+    background-color:  #000051;
+    text-decoration: none;
+    cursor: grab;
+}
+
+nav a {
+	  font-family: "Lucida Console", "Courier New", monospace;
+  background:#cd5c5c;
+  border-radius: 10px;
+    box-shadow: 4px 4px 7px 4px #fedeb3;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin: 2px;
+  text-decoration: none;
+}
+
+main {
+	  font-family: "Lucida Console", "Courier New", monospace;
+	
+  text-align: center;
+  background:#e9967a;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 8%;
+  padding: 1%;
+  width: 30%;
+}
+
+.btn, .field{
+    font-family: "Lucida Console", "Courier New", monospace;
+  
+  display: block;
+   color: white;
+  background:#cd5c5c;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 3px #fedeb3;
+  border: none;
+  margin: 5%;
+  padding: 3%;
+  
+}
+
+.btn {
+	 width: 30%;
+	 margin: auto;
+	 margin-top: 4%;
+}
+
+.buttons {
+	display: inline;
+}
+
+p {
+	color: pink;
+	margin-top: 4%;
+}
+input {
+	  font-family: "Lucida Console", "Courier New", monospace;
+	border-radius: 10px;
+	width: 80%;
+	padding: 1%;
+}
+
+.btn:hover, nav a:hover {
+  background: #cd5c5c;
+    color: pink;
+  }

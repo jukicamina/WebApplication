@@ -1,0 +1,126 @@
+html, body {
+  background: #f5deb3;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  background: #e9967a;
+  padding: 5px;
+}
+
+
+header h2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  display: inline;
+  margin-left: 1%;
+}
+
+header nav {
+  display: inline;
+  float: center;
+  margin-right: 0%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.pagetitle{
+	text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+
+nav a {
+	  font-family: "Lucida Console", "Courier New", monospace;
+	  text-align:center;
+	  color: white;	
+      background:#f5deb3;
+  	  border-radius: 10px;
+  	  border: none;
+  	  padding: 5px;
+  	  margin: 2px;
+  	  box-shadow: 4px 4px 7px 4px #f5deb3;
+}
+
+a:link, a:visited, a:active {
+  font-family: "Lucida Console", "Courier New", monospace;
+	
+	color: white;
+    text-decoration: none;
+}
+  
+.mybutton {
+    font-family: "Lucida Console", "Courier New", monospace;
+  	background:#f5deb3;
+    box-shadow: 2px 5px 7px 5px indianred;
+   	border-radius: 10px;
+  	color: white;
+  	border: none;
+  	padding: 10px;
+  	margin: 15px;
+  	font-size: 30px;  	
+}
+
+main {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  background:#e9967a;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5%;
+  padding: 6%;
+  width:30%;
+}
+
+
+input {
+	  font-family: "Lucida Console", "Courier New", monospace;
+	  background: #f5deb3;
+}
+
+table {
+	  font-family: "Lucida Console", "Courier New", monospace;
+	  
+	color:white;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+table td {
+	  font-family: "Lucida Console", "Courier New", monospace;
+	  		  text-align:center;
+	  
+	color:white;
+	text-align: left;
+}
+
+tr:hover {
+	  font-family: "Lucida Console", "Courier New", monospace;
+			  text-align:center;
+			  margin-top:10%;
+	height:50px;
+	background: pink;
+}
+
+table th {
+		  font-family: "Lucida Console", "Courier New", monospace;
+		  text-align:center;
+		color:white;
+	background: f5deb3;
+	text-align: left;
+}
+
+p {
+	color: f5deb3;
+	margin-top: 2%;
+}
+
+
+.mybutton:hover, .btnNQ:hover, .modalButton:hover, nav a:hover {
+    background-color:  #e99680;
+    color: pink;  
+}
+
